@@ -1,0 +1,104 @@
+@media only screen and (max-width: 1200px) {
+    header {
+        height: 65vh
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    html {
+        font-size: 57.5%;
+    }
+
+    .row {
+        width: auto;
+        margin: 0 3rem;
+    }
+
+    .main_nav {
+        display: none;
+    }
+    .mobile_menu span{
+        display: block;
+        margin: 1.8rem 0;
+    }
+    .sticky .logo_header{
+        margin-top: 2rem;
+    }
+    .sticky .mobile_menu span{
+        margin-top: 1.5rem;
+    }
+
+    .clients {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+
+    .client_review {
+        text-align: center;
+        width: 100%;
+        float: none;
+    }
+
+    .contact_section form {
+        width: 70%;
+        margin-left: 15%;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    .span_1_of_4 {
+        width: 49.2%;
+    }
+
+    .col:nth-child(3) {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .footer_section ul li {
+        margin: 0 1.5rem;
+    }
+
+    .footer_section ul li a {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .span_1_of_4 {
+        width: 100%;
+    }
+
+    header {
+        height: 80vh
+    }
+
+    html {
+        font-size: 50%;
+    }
+    .main_title_header h1{
+        font-size: 3.5rem;
+    }
+
+    h2 {
+        font-size: 2.4rem;
+    }
+
+    .testimonial_section .col:nth-child(2) {
+        margin-top: 4rem;
+    }
+
+    .testimonial_section .col:nth-child(3),
+    .testimonial_section .col:nth-child(4) {
+        margin-top: 4rem;
+    }
+
+    .btn:link,
+    .btn:visited,
+    .btn {
+        padding: 1rem 3rem;
+        font-size: 1.8rem;
+    }
+}
